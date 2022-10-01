@@ -1,0 +1,255 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ============ Style navbar ============ */
+.active_nav {
+    background-color: #222b4d;
+    transition: 500ms all;
+}
+
+.active_nav .botao {
+    border: 2px solid #ffffff;
+}
+
+/* Ajuste do botao do hamburgue */
+
+.active_nav .navbar-toggler {
+    border: 2px solid #ffffff;
+}
+
+.navbar-toggler {
+    box-shadow: inset 0 0 2em #ffffff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 1em #ffffff;
+}
+
+.navbar-toggler-icon i {
+    font-size: 1.8em;
+}
+
+/* ============================== */
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    column-gap: 20px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.nav-item .nav-link:hover {
+    font-size: 1.4em;
+    transition: 1s all;
+}
+
+/* ======================================= */
+
+.banner {
+    width: 100%;
+    height: 80vh;
+}
+
+.botao {
+    background: #222b4d;
+    color: #ffffff;
+    font-size: 1em;
+    min-height: 30px;
+    padding: 6px 20px;
+}
+
+.botao:hover {
+    background: #5c6589;
+    color: #ffffff;
+    transition: 1s all;
+}
+
+.border-color:hover {
+    border: 1.5px solid #222b4d;
+}
+
+.caixa {
+    border: 1px solid #646464;
+    box-shadow: #646464 0.1rem 0.1rem 0.3rem;
+    margin: 40px auto 5px auto;
+    max-width: 1025px;
+    width: 100%;
+}
+
+.caixa-conta {
+    padding: 30px 50px;
+}
+
+.fonte-titulo {
+    color: #222b4d;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    text-shadow: #5c6589 0.1rem 0.2rem 0.1rem;
+}
+
+.facebook .google {
+    height: 40px;
+}
+
+.login-conta {
+    margin: 30px auto 30px;
+}
+
+.login-facebook {
+    align-items: center;
+    background-color: #1877f2;
+    border-radius: 4px;
+    color: #ffffff;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    max-width: 285px;
+    width: 100%;
+}
+
+.login-facebook i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.login-facebook:hover {
+    color: #ffffff;
+    background: #1059b9;
+    transition: 1s all;
+}
+
+.login-google {
+    align-items: center;
+    border: 1px solid #646464;
+    border-radius: 4px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    max-width: 285px;
+    width: 100%;
+}
+
+.login-google i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.login-google:hover {
+    transition: 1s all;
+}
+
+.text {
+    border-bottom: 1px solid #646464;
+    font-size: 1.1rem;
+    line-height: 0.1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text span {
+    background: #f8f9fa;
+    padding: 0 10px;
+}
+
+/* =========== Style do footer ========== */
+.bg-footer {
+    background: #646464;
+}
+
+.bi {
+    font-size: 1.5em;
+    padding: 0px 5px;
+}
+
+.section-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    column-gap: 20px;
+}
+
+.section-footer-article {
+    width: 25%;
+}
+
+.section-footer-article ul h4 {
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.section-footer-article ul li {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.section-footer-article ul li a:hover {
+    color: #222b4d;
+    transition: 500ms all;
+}
+
+/* Cores para as redes sociais */
+#twitter:hover {
+    color: #00ACEE;
+    transition: 500ms all;
+}
+
+#facebook:hover {   
+    color: #1059b9;
+    transition: 500ms all;
+}
+
+#instagram:hover {
+    color: #fb5709;
+    transition: 500ms all;
+}
+
+#youtube:hover {
+    color: #ff0000;
+    transition: 500ms all;
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+    transition: 500ms all;
+}
+
+/* ===================================== */
+
+/* Estilo do endereço */
+#fonte {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 764px) {
+
+    .login-conta {
+        margin: 5px;
+    }
+
+    .mt-4 {
+        margin-top: 0px;
+    }
+
+    .section-footer {
+        align-items: center;
+        display: block;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .section-footer-article {
+        width: 100%;
+    }
+
+}
+
+/* ============================ */
+
+/* Paleta de cores
+#222b4d
+#3a3a3a
+#5c6589
+#646464
+#ffffff
+*/
