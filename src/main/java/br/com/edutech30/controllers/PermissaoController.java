@@ -64,7 +64,7 @@ public class PermissaoController {
 	public ModelAndView editar(@PathVariable Long id) {
 		ModelAndView modelAndView = new ModelAndView("permissao/edicao");
 		
-		Permissao permissao = new Permissao();
+		Permissao permissao = permissaoRepository.getById(id);
 		modelAndView.addObject("permissao", permissao);
 		
 		return modelAndView;
