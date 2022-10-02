@@ -86,8 +86,8 @@
 		</div>
 		<div class="container p-4">
 			<div class="d-flex justify-content-end">
-				<a th:href="@{/cadastro/cadastrar}" class="btn botao mb-2">
-					Cadastrar Usuario </a>
+				<a th:href="@{/contato/cadastrar}" class="btn botao mb-2">
+					Entrar em Contato </a>
 			</div>
 			<table class="table table-responsive table-hover">
 				<thead class="table-light">
@@ -95,24 +95,27 @@
 						<th scope="col">#</th>
 						<th scope="col">Nome</th>
 						<th scope="col">E-mail</th>
-						<th scope="col">Senha</th>
-						<th scope="col">Permissão</th>
+						<th scope="col">Logradouro</th>
+						<th scope="col">Cidade</th>
+						<th scope="col">Estado</th>
+						<th scope="col">Assunto</th>
+						<th scope="col">Mensagem</th>
 						<th scope="col">Ações</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr th:each="cadastro : ${cadastros}">
-							<th scope="row" th:text="${cadastro.id}"></th>
-							<td th:text="${cadastro.nome}"></td>
-							<td th:text="${cadastro.email}"></td>
-							<td th:text="${cadastro.senha}"></td>
-							<td th:text="${cadastro.permissao}"></td>
+					<tr th:each="contato : ${contatos}">
+							<th scope="row" th:text="${contato.id}"></th>
+							<td th:text="${contato.nome}"></td>
+							<td th:text="${contato.email}"></td>
+							<td th:text="${contato.logradouro}"></td>
+							<td th:text="${contato.cidade}"></td>
+							<td th:text="${contato.estado}"></td>
+							<td th:text="${contato.assunto}"></td>
+							<td th:text="${contato.mensagem}"></td>
 							<td>
-								<a th:href="@{/cadastro/{id}/editar (id=${cadastro.id})}" class="btn" title="Editar">
-									<i class="bi bi-pencil"></i>
-								</a>
-								<a th:href="@{/cadastro/{id}/excluir (id=${cadastro.id})}" class="btn" title="Excluir"
-									onclick="return confirm('Tem certeza que deseja excluir este cadastro?');">
+								<a th:href="@{/contato/{id}/excluir (id=${contato.id})}" class="btn" title="Excluir"
+									onclick="return confirm('Tem certeza que deseja excluir este contato?');">
 									<i class="bi bi-trash"></i>
 								</a>
 							</td>
