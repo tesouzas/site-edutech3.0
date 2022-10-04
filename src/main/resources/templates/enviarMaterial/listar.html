@@ -74,70 +74,62 @@
 								<li><a class="dropdown-item" href="./contato/cadastrar">Contato</a></li>
 							</ul>
 						</li>
-						
+
 					</ul>
 				</section>
 				<div class="d-flex justify-content-end align-items-center mb-3">
-					<a href="./login.html"> <button type="submit" class="btn botao">ENTRAR</button></a>
+					<a href="../login"> <button type="submit" class="btn botao">ENTRAR</button></a>
 				</div>
 			</div>
 		</nav>
 	</header>
+
 	<main>
-		<!--Carousel trilhas-->
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img height="400vh" src="./img/trilhas.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img height="400vh" src="./img/trilhaSala.jfif" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img height="400vh" src="./img/cursosOnline.jfif" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <!--Carousel trilhas-->
+		<!--Banner-->
+		<div class="fade-in" style="background-color: #000080;">
+			<a href="./enviarMaterial.html"><img class="banner-index" src="../img/envie.jpeg" alt=""></a>
+		</div>
+		<!--Banner-->
 		<div class="container p-4">
-			<div class="d-flex justify-content-end">
-				<a th:href="@{/cadastro/cadastrar}" class="btn botao mb-2">
-					Cadastrar Usuario </a>
-			</div>
 			<table class="table table-responsive table-hover">
 				<thead class="table-light">
 					<tr>
 						<th scope="col">#</th>
 						<th scope="col">Nome</th>
 						<th scope="col">E-mail</th>
-						<th scope="col">Senha</th>
-						<th scope="col">Permissão</th>
+						<th scope="col">CPF</th>
+						<th scope="col">Telefone</th>
+						<th scope="col">Cidade</th>
+						<th scope="col">Estado</th>
+						<th scope="col">Resumo</th>
+						<th scope="col">Instituição de Ensino</th>
+						<th scope="col">Disciplina</th>
+						<th scope="col">Rede</th>
+						<th scope="col">Tipo Conteudo</th>
+						<th scope="col">Descrição</th>
+						<th scope="col">Arquivo</th>
 						<th scope="col">Ações</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr th:each="cadastro : ${cadastros}">
-						<th scope="row" th:text="${cadastro.id}"></th>
-						<td th:text="${cadastro.nome}"></td>
-						<td th:text="${cadastro.email}"></td>
-						<td th:text="${cadastro.senha}"></td>
-						<td th:text="${cadastro.permissao}"></td>
+					<tr th:each="material : ${materiais}">
+						<th scope="row" th:text="${material.id}"></th>
+						<td th:text="${material.nome}"></td>
+						<td th:text="${material.email}"></td>
+						<td th:text="${material.cpf}"></td>
+						<td th:text="${material.telefone}"></td>
+						<td th:text="${material.cidade}"></td>
+						<td th:text="${material.estado}"></td>
+						<td th:text="${material.resumo}"></td>
+						<td th:text="${material.institutoEnsino}"></td>
+						<td th:text="${material.disciplina}"></td>
+						<td th:text="${material.rede}"></td>
+						<td th:text="${material.tipoConteudo}"></td>
+						<td th:text="${material.descricao}"></td>
+						<td th:text="${material.arquivo}"></td>
 						<td>
-							<a th:href="@{/cadastro/{id}/editar (id=${cadastro.id})}" class="btn" title="Editar">
-								<i class="bi bi-pencil"></i>
-							</a>
-							<a th:href="@{/cadastro/{id}/excluir (id=${cadastro.id})}" class="btn" title="Excluir"
-								onclick="return confirm('Tem certeza que deseja excluir este cadastro?');">
+							<a th:href="@{/contato/{id}/excluir (id=${contato.id})}" class="btn" title="Excluir"
+								onclick="return confirm('Tem certeza que deseja excluir este contato?');">
 								<i class="bi bi-trash"></i>
 							</a>
 						</td>

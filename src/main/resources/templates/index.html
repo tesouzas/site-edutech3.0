@@ -21,11 +21,13 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="bg-light">
+<!--Início Navbar-->
+
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#000080">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="" src="./img/Ilustração_Sem_Título1.png"
+                <a class="navbar-brand" href="/"><img class="" src="./img/logo.png"
                         alt="Logomarca"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -41,11 +43,13 @@
                                 Trilhas de capacitação
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Cursos</a></li>
-                                <li><a class="dropdown-item" href="./views/infantil/index.html">Infantil</a></li>
-                                <li><a class="dropdown-item" href="./views/fund_I/index.html">Fundamental I</a></li>
-                                <li><a class="dropdown-item" href="./views/fund_II/index.html">Fundamental II</a></li>
-                                <li><a class="dropdown-item" href="./views/medio/index.html">Médio</a></li>
+                                <li><a class="dropdown-item" href="./infantil">Infantil</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../fundamentalI">Fundamental
+                                        I</a></li>
+                                <li><a class="dropdown-item" href="./fundamentalII">Fundamental
+                                        II</a></li>
+                                <li><a class="dropdown-item" href="./medio">Médio</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,9 +58,11 @@
                                 Edutech3.0
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="./views/sobreNos/index.html">Sobre nós</a></li>
-                                <li><a class="dropdown-item" href="#">Instituições parceiras</a></li>
-                                <li><a class="dropdown-item" href="#">Notícias</a></li>
+                                <li><a class="dropdown-item" href="./sobre">Sobre nós</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Instituições
+                                        parceiras</a></li>
+                                <li><a class="dropdown-item" href="https://www.gov.br/mec/pt-br">Notícias</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -65,66 +71,199 @@
                                 Fale conosco
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="./cadastrar">Cadastrar</a></li>
-                                <li><a class="dropdown-item" href="./cadastro">Listar cadastros</a></li>
-                                <li><a class="dropdown-item" href="./contato">Listar contatos</a></li>
-                                <li><a class="dropdown-item" href="./views/enviarMaterial/index.html">Compartilhe sua ideia</a></li>
-                                <li><a class="dropdown-item" href="./permissao">Permissões</a></li>
+                                <li><a class="dropdown-item" href="./cadastro/cadastrar">Cadastre-se</a></li>
+                                <li><a class="dropdown-item" href="./material/cadastrar">Compartilhe sua
+                                        ideia</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./contato/cadastrar">Contato</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Adm
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./cadastro">Listar Usuarios</a></li>
+                                <li><a class="dropdown-item" href="./permissao">Listar Permissões</a></li>
+                                <li><a class="dropdown-item" href="./contato">Listar Contatos</a></li>
+                                <li><a class="dropdown-item" href="./material">Listar Material</a></li>
                             </ul>
                         </li>
                     </ul>
                 </section>
                 <div class="d-flex justify-content-end align-items-center mb-3">
-                    <a type="submit" class="btn botao" href="./login.html">ENTRAR</a>
+                    <a href="./login"> <button type="submit" class="btn botao">ENTRAR</button></a>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="bg-light">
-        <div>
-            <img class="banner" src="./img/Banner1.png" alt="">
+    <!--Fim Navbar-->
+    <main>
+        <!--Banner-->
+        <div class="fade-in" style="background-color: #000080;">
+            <a href="./index.html"><img class="banner-index" src="./img/bannerEdu.jfif" alt=""></a>
         </div>
-        <div class="container">
-            <h2 class="fonte-titulo mt-5">Sobre nós</h2>
+        <!--Banner-->
+
+        <div class="container" align="center">
+            <h2 class="fonte-titulo mt-5">O que é Edutech 3.0?</h2>
             <hr>
-            O Edutech 3.0 é uma plataforma de conteúdos e tendências sobre inovações na área educacional. Nosso
-            propósito é inserir a tecnologia na sala de aula para que ela se torne uma facilitadora no processo
-            ensino-aprendizagem.
+            <p align="justify">
+                O Edutech 3.0 é uma plataforma de conteúdos e tendências sobre inovações na área educacional. Nosso
+                propósito é inserir a tecnologia na sala de aula para que ela se torne uma facilitadora no processo
+                ensino-aprendizagem.
+                Nossas trilhas e materiais foram selecionados e desenvolvidos em parceria com
+                especialistas
+                voluntários e da própria plataforma e são disponibilizados de forma gratuita. Venha fazer parte desta
+                revolução tecnológica nas salas de aula de todo o mundo!
+            </p>
+        </div>
+
+        <!--Banner-->
+        <div class="fade-in">
+            <img class="banner-trilha" src="./img/inovacaotec.jpeg" alt="">
+        </div>
+        <div class="card-body" Style=margin-left:40vw;>
+            <a href="./Pages/login.html" class="botao">Comece agora!</a>
+        </div>
+        <div>
             <br>
-            O foco do Edutech 3.0 são educadoras e educadores, equipes de secretarias de educação e de organizações da
-            sociedade civil. As trilhas e os materiais foram selecionados e desenvolvidos em parceria com especialistas
-            voluntários e da própria plataforma e são disponibilizados de forma gratuita.
             <br>
-            O objetivo do nosso projeto é promover a ampliação da digitalização da educação no Brasil, sendo voltado
-            para o desenvolvimento das competências digitais dos educadores do Ensino Infantil, Fundamental e Médio. E,
-            portanto, facilitar a disseminação de técnicas e a difusão de conteúdo, promovendo a reflexão contínua sobre
-            as práticas profissionais, favorecendo que elas sejam repensadas, aprimoradas e recriadas.
-            <br>
+            <!--Banner-->
+
+            <!--Carousel trilhas-->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img height="400vh" src="./img/trilhas.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img height="400vh" src="./img/trilhaSala.jfif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img height="400vh" src="./img/cursosOnline.jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Carousel trilhas-->
+
+            <!--Carousel Vídeos-->
+            <h2 class="fonte-titulo mt-5">Vídeos educativos</h2>
+            <hr>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/c1CCV1EYOX8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/jp0EMR1_07s"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/fCyojmJn1lQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Carousel Vídeos-->
+
 
             <!--lista de notícias-->
-            <h2 class="fonte-titulo mt-5">Notícias</h2>
-            <hr>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="https://minhabiblioteca.com.br/blog/tecnologia-na-educacao/">Os
-                        desafios e os benefícios
-                        da tecnologia na educação</a></li>
-                <li class="list-group-item"><a
-                        href="https://codebit.com.br/blog/tecnologia-educacao-vantagens-desafios">Tecnologia na
-                        educação: o impacto, as vantagens e os desafios</a></li>
-                <li class="list-group-item"><a
-                        href="https://educacao.imaginie.com.br/o-papel-da-tecnologia-na-educacao/">Qual o papel da
-                        tecnologia na educação e por que ela é tão importante nas escolas?</a></li>
-                <li class="list-group-item"><a
-                        href="https://minhabiblioteca.com.br/blog/professores-no-ensino-hibrido/">Novos conhecimentos
-                        são requisitados para os professores no ensino híbrido</a></li>
-                <li class="list-group-item"><a
-                        href="https://educacaopublica.cecierj.edu.br/artigos/21/28/ensino-remoto-o-desafio-na-pratica-docente-frente-ao-contexto-da-pandemia">Ensino
-                        remoto: o desafio na prática docente frente ao contexto da pandemia</a></li>
-            </ul>
+            <div class="container">
+                <h2 class="fonte-titulo mt-5">Notícias</h2>
+                <hr>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="https://minhabiblioteca.com.br/blog/tecnologia-na-educacao/">Os
+                            desafios e os benefícios
+                            da tecnologia na educação</a></li>
+                    <li class="list-group-item"><a
+                            href="https://codebit.com.br/blog/tecnologia-educacao-vantagens-desafios">Tecnologia na
+                            educação: o impacto, as vantagens e os desafios</a></li>
+                    <li class="list-group-item"><a
+                            href="https://educacao.imaginie.com.br/o-papel-da-tecnologia-na-educacao/">Qual o
+                            papel da
+                            tecnologia na educação e por que ela é tão importante nas escolas?</a></li>
+                    <li class="list-group-item"><a
+                            href="https://minhabiblioteca.com.br/blog/professores-no-ensino-hibrido/">Novos
+                            conhecimentos
+                            são requisitados para os professores no ensino híbrido</a></li>
+                    <li class="list-group-item"><a
+                            href="https://educacaopublica.cecierj.edu.br/artigos/21/28/ensino-remoto-o-desafio-na-pratica-docente-frente-ao-contexto-da-pandemia">Ensino
+                            remoto: o desafio na prática docente frente ao contexto da pandemia</a></li>
+                </ul>
+            </div>
             <br>
+            <!--Carousel Enviar Materiais-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <a href="./Pages/enviarMaterial.html">
+                        <div class="carousel-item active">
+                            <img height="400vh" src="./img/envie.jpeg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="./Pages/contato.html">
+                        <div class="carousel-item active">
+                            <img height="400vh" src="./img/escola.jpeg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+        </div>
+        <!--Carousel Enviar Materiais-->
 
-            <!--lista de cursos-->
-            <h2 class="fonte-titulo mt-5">Cursos</h2>
+
+
+
+
+
+        <!--lista de cursos-->
+        <div class="container">
+            <h2 class="fonte-titulo mt-5">Cursos gratuitos</h2>
             <hr>
             <section class="row">
                 <article class="col-sm-6 mb-4">
@@ -149,7 +288,8 @@
                             <p class="card-text">Neste curso serão vivenciados conceitos e aspectos centrais da
                                 recomposição de aprendizagens nos anos finais do Ensino Fundamental considerando o
                                 delicado e singular momento atual da educação. </p>
-                            <a href="#" class="btn botao">Inscreva-se!</a>
+                            <a href="https://cursos.novaescola.org.br/curso/11996/defasagem-de-aprendizagem-nos-anos-iniciais-do-ensino-fundamental-re-planejar-para-avancar/resumo"
+                                class="btn botao">Inscreva-se!</a>
                         </div>
                     </div>
                 </article>
@@ -180,91 +320,70 @@
                     </div>
                 </article>
             </section>
-            <br>
+        </div>
+        <br>
+        <br>
 
-            <!-- card de apresentação -->
-            <h2 class="fonte-titulo mt-5">Vídeos</h2>
-            <hr>
-            <section class="row row-cols-1 row-cols-md-3 g-4">
-                <article class="col">
-                    <div class="card h-100 border-color">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ifX7xXKxCD0"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Educação e Tecnologia: Ontem, Hoje e Amanhã</h5>
-                            <p class="card-text">A inclusão das novas formas de comunicação e o uso de dispositivos
-                                eletrônicos aponta para um horizonte inevitável e em alguns casos já é preciso
-                                ressignificar os processos de ensino e aprendizagem, sem perder a perspectiva da
-                                importância da escola. </p>
-                        </div>
-                    </div>
-                </article>
-                <article class="col">
-                    <div class="card h-100 border-color">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/c1CCV1EYOX8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Educação Mediada por Tecnologias - Aplicativos e o processo educativo
-                            </h5>
-                            <p class="card-text">A professora Raquel Gitahy demonstra como os desenvolvimentos
-                                tecnológicos alteraram diversas áreas da convivência humana e de forma substancial o
-                                ambiente escolar.</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="col">
-                    <div class="card h-100 border-color">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/b5TdZ_ox99A"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">O poder da tecnologia na educação: João Gabriel Alkmim at TEDxLacador
-                            </h5>
-                            <p class="card-text">Esta TED mostra a visão de um empreendedor de 19 anos de idade de como
-                                a educação será no futuro, que criou uma empresa para entregar essas inovações a
-                                instituições de ensino em todo o mundo. </p>
-                        </div>
-                    </div>
-                </article>
-            </section>
         </div>
     </main>
-    <br>
+    <!--NEWSLETTER-->
+    <hr>
+    <div align="center">
+        <h3>Assine nossa newsletter e receba um e-book <br>
+            com vários jogos para você ultilizar na sala de aula.</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Digite seu nome">
+            </div>
+            <div class="col-6">
+                <input type="email" class="form-control" placeholder="Seu email" aria-label="Digite seu email">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Assinar</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div align="center" font="arial" size="2">
+            <p>*Concordo em receber ofertas e compartilhar meus dados com a EDUTECH 3.0</p>
+        </div>
+    </div>
+    <hr>
+    <!--NEWSLETTER-->
+    <!--Footer-->
     <footer class="bg-footer">
         <div class="container">
             <section class="row section-footer">
                 <article class="col-sm d-flex justify-content-center">
-                    <a class="navbar-brand" href="#"><img src="./img/img-footer.png" alt="Logomarca"></a>
+                    <a class="navbar-brand" href="../EduTech3.0/index.html"><img src="./img/img-footer.png"
+                            alt="Logomarca"></a>
                 </article>
                 <article class="col-sm section-footer-article">
                     <ul>
                         <h4>Capacitação</h4>
                         <li><a href="#">Cursos</a></li>
-                        <li><a href="./infantil.html">Ensino Infantil</a></li>
-                        <li><a href="./fund_I.html"> Ensino Fundamental I</a></li>
-                        <li><a href="./fund_II.html">Ensino Fundamental II</a></li>
-                        <li><a href="./medio.html">Ensino Médio</a></li>
+                        <li><a href="../EduTech3.0/Pages/infantil.html">Ensino Infantil</a></li>
+                        <li><a href="../EduTech3.0/Pages/fund_I.html"> Ensino Fundamental I</a></li>
+                        <li><a href="../EduTech3.0/Pages/fund_II.html">Ensino Fundamental II</a></li>
+                        <li><a href="../EduTech3.0/Pages/medio.html">Ensino Médio</a></li>
                     </ul>
                 </article>
                 <article class="col-sm section-footer-article">
                     <ul>
                         <h4>Edutech 3.0</h4>
-                        <li><a href="sobreNos.html">Sobre nós</a></li>
-                        <li><a href="#">Instituições Parceiras</a></li>
-                        <li><a href="#">Notícias</a></li>
+                        <li><a href="../EduTech3.0/Pages/sobreNos.html">Sobre nós</a></li>
+                        <li><a href="./Pages/contato.html">Instituições Parceiras</a></li>
+                        <li><a href="https://www.gov.br/mec/pt-br">Notícias</a></li>
                     </ul>
                 </article>
                 <article class="col-sm section-footer-article">
                     <ul>
                         <h4>Fale conosco</h4>
-                        <li><a href="./cadastro.html">Cadastrar</a></li>
-                        <li><a href="./contato.html">Contato</a></li>
-                        <li><a href="./enviarMaterial.html">Compartilhe sua ideia</a></li>
+                        <li><a href="../EduTech3.0/Pages/cadastro.html">Cadastre-se</a></li>
+                        <li><a href="../EduTech3.0/Pages/contato.html">Contato</a></li>
+                        <li><a href="../EduTech3.0/Pages/enviarMaterial.html">Compartilhe sua ideia</a></li>
                         <li>
                             <h4>Nossas redes sociais</h4>
                         </li>
@@ -282,12 +401,12 @@
             </div>
         </div>
     </footer>
-
+    <!--Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <script src="./js/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

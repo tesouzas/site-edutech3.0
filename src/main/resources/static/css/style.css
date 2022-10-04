@@ -44,11 +44,23 @@ a {
     transition: 1s all;
 }
 
+
 /* ======================================= */
 
-.banner {
-    width: 100%;
+.banner-index{
+    width: 80%;
+    height: 60vh;
+    border-radius: 15%;
+    margin-top: 8em;
+    padding-bottom: 2em;
+    margin-left: 10vw;
+}
+.banner-trilha{
+    width: 80%;
     height: 80vh;
+    margin-top: 2em;
+    padding-bottom: 0em;
+    margin-left: 10vw;
 }
 
 .botao {
@@ -152,6 +164,30 @@ a {
     padding: 0 10px;
 }
 
+.trilha{
+    width: 80%;
+    height: 60vh;
+    border-radius: 50em;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-items: center;
+}
+/* =========== Animation ========== */
+.fade-in{
+    animation:fadeIn 3s
+}
+
+@keyframes fadeIn{
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+/* =========== Animation ========== */
+
 /* =========== Style do footer ========== */
 .bg-footer {
     background: #646464;
@@ -163,8 +199,6 @@ a {
 }
 
 .section-footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
     column-gap: 20px;
 }
 
@@ -193,7 +227,7 @@ a {
     transition: 500ms all;
 }
 
-#facebook:hover {   
+#facebook:hover {
     color: #1059b9;
     transition: 500ms all;
 }
@@ -244,8 +278,10 @@ a {
 
 }
 
-/* ============================ */
+/* ============================ 
 
+
+/* ============================ */
 /* Paleta de cores
 #222b4d
 #3a3a3a

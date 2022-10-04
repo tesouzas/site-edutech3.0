@@ -64,7 +64,7 @@ public class CadastroController {
 	public ModelAndView editar(@PathVariable Long id) {
 		ModelAndView modelAndView = new ModelAndView("cadastro/edicao");
 		
-		Cadastro cadastro = cadastroRepository.getById(id);
+		Cadastro cadastro = cadastroRepository.getReferenceById(id);
 		modelAndView.addObject("cadastro", cadastro);
 		
 		return modelAndView;

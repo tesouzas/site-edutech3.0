@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="../img/Ilustração_Sem_Título1.png" type="image/png" />
+	<link rel="icon" href="../img/logo.png" type="image/png" />
 	<title>Cadastro</title>
 	<link rel="stylesheet" href="../css/reset.css">
 
@@ -23,10 +23,9 @@
 
 <body class="bg-light">
 	<header>
-		<nav class="navbar navbar-expand-lg bg-footer">
+		<nav class="navbar navbar-expand-lg fixed-top" style="background-color:#000080">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#"><img class="" src="../img/Ilustração_Sem_Título1.png"
-						alt="Logomarca"></a>
+				<a class="navbar-brand" href="/"><img class="" src="../img/logo.png" alt="Logomarca"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -41,11 +40,13 @@
 								Trilhas de capacitação
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a class="dropdown-item" href="#">Cursos</a></li>
-								<li><a class="dropdown-item" href="./views/infantil/index.html">Infantil</a></li>
-								<li><a class="dropdown-item" href="./views/fund_I/index.html">Fundamental I</a></li>
-								<li><a class="dropdown-item" href="./views/fund_II/index.html">Fundamental II</a></li>
-								<li><a class="dropdown-item" href="./views/medio/index.html">Médio</a></li>
+								<li><a class="dropdown-item" href="../infantil">Infantil</a>
+								</li>
+								<li><a class="dropdown-item" href="../fundamentalI">Fundamental
+										I</a></li>
+								<li><a class="dropdown-item" href="../fundamentalII">Fundamental
+										II</a></li>
+								<li><a class="dropdown-item" href="../medio">Médio</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -54,9 +55,11 @@
 								Edutech3.0
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a class="dropdown-item" href="./views/sobreNos/index.html">Sobre nós</a></li>
-								<li><a class="dropdown-item" href="#">Instituições parceiras</a></li>
-								<li><a class="dropdown-item" href="#">Notícias</a></li>
+								<li><a class="dropdown-item" href="../sobre">Sobre nós</a>
+								</li>
+								<li><a class="dropdown-item" href="#">Instituições
+										parceiras</a></li>
+								<li><a class="dropdown-item" href="https://www.gov.br/mec/pt-br">Notícias</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -65,41 +68,45 @@
 								Fale conosco
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a class="dropdown-item" href="./cadastrar">Cadastrar</a></li>
-								<li><a class="dropdown-item" href="../cadastro">Listar cadastros</a></li>
-								<li><a class="dropdown-item" href="./views/enviarMaterial/index.html">Compartilhe sua
-										ideia</a></li>
-								<li><a class="dropdown-item" href="./views/contato/index.html">Contato</a></li>
-								<li><a class="dropdown-item" href="./permissao">Permissões</a></li>
+								<li><a class="dropdown-item" href="#">Cadastre-se</a></li>
+								<li><a class="dropdown-item" href="../material/cadastrar">Compartilhe sua ideia</a>
+								</li>
+								<li><a class="dropdown-item" href="../contato/cadastrar">Contato</a></li>
 							</ul>
 						</li>
 					</ul>
 				</section>
 				<div class="d-flex justify-content-end align-items-center mb-3">
-					<a type="submit" class="btn botao" href="./login.html">ENTRAR</a>
+					<a href="../login"> <button type="submit" class="btn botao">ENTRAR</button></a>
 				</div>
 			</div>
 		</nav>
 	</header>
+	<br>
+    <br>
+    <br>
+    <br>
 	<main class="bg-light">
 		<div class="container">
 			<section class="row caixa">
 				<article class="col-md-4 d-flex justify-content-center align-items-center bg-footer">
-					<a class="navbar-brand" href="./index.html"><img src="../img/img-footer.png" alt="Logomarca"></a>
+					<a class="navbar-brand" href="/"><img src="../img/img-footer.png" alt="Logomarca"></a>
 				</article>
 				<article class="col-md-8 caixa-conta">
 					<div class="d-flex justify-content-center">
 						<h1 class="fonte-titulo mt-5 mb-3">Crie sua conta na Edutech 3.0</h1>
 					</div>
 					<!-- form -->
-					<form method="POST" th:object="${cadastro}" class="row mt-3 d-flex justify-content-around" >
+					<form method="POST" th:object="${cadastro}" class="row mt-3 d-flex justify-content-around">
 						<div class="col-12 mb-2">
 							<label for="nome" class="form-label">Nome Completo</label> <input type="text"
-								class="form-control" id="nome" name="nome" aria-describedby="nomeHelpId" th:field="*{nome}">
+								class="form-control" id="nome" name="nome" aria-describedby="nomeHelpId"
+								th:field="*{nome}">
 						</div>
 						<div class="col-12 mb-2">
 							<label for="email" class="form-label">E-mail</label> <input type="email"
-								class="form-control" id="email" name="email" aria-describedby="emailHelpId" th:field="*{email}">
+								class="form-control" id="email" name="email" aria-describedby="emailHelpId"
+								th:field="*{email}">
 						</div>
 						<div class="col-md-6 mb-2">
 							<label for="senha" class="form-label">Senha</label> <input type="password"
@@ -117,7 +124,7 @@
 							<button type="submit" class="btn botao ">CADASTRAR</button>
 						</div>
 						<div class="col-12 d-flex justify-content-center">
-							<p>Ja tem conta? <a href="./login.html">Entre aqui</a></p>
+							<p>Ja tem conta? <a href="../login">Entre aqui</a></p>
 						</div>
 					</form>
 				</article>
