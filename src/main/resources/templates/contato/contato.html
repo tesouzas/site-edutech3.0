@@ -2,200 +2,200 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="../css/reset.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato</title>
+	<link rel="stylesheet" href="../css/reset.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="bg-light">
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#000080">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img class="" src="../img/logo.png" alt="Logomarca"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i
-                            class="bi bi-list"></i></span>
-                </button>
-                <section class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Trilhas de capacitação
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../infantil">Infantil</a>
-                                </li>
-                                <li><a class="dropdown-item" href="../fundamentalI">Fundamental
-                                        I</a></li>
-                                <li><a class="dropdown-item" href="../fundamentalII">Fundamental
-                                        II</a></li>
-                                <li><a class="dropdown-item" href="../medio">Médio</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Edutech3.0
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../sobre">Sobre nós</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Instituições
-                                        parceiras</a></li>
-                                <li><a class="dropdown-item" href="https://www.gov.br/mec/pt-br">Notícias</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Fale conosco
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../cadastro/cadastrar">Cadastre-se</a></li>
-                                <li><a class="dropdown-item" href="../material/cadastrar">Compartilhe sua ideia</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Contato</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
-                <div class="d-flex justify-content-end align-items-center mb-3">
-                    <a href="../login"> <button type="submit" class="btn botao">ENTRAR</button></a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main class="bg-light">
-        <div class="fade-in" style="background-color: #000080;">
-            <img class="banner-index" src="../img/escola.jpeg" alt="">
-        </div>
-        <div class="container">
-            <h1 class="fonte-titulo mt-5">Fale conosco</h1>
-            <p>*Campo obrigatório</p>
-            <form method="POST" th:object="${contato}" class="row g-3 mt-5">
-                <div class="col-md-6">
-                    <label for="nome" class="form-label">Nome Completo*</label>
-                    <input type="text" class="form-control" id="nome" name="nome" th:field="*{nome}" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="email" class="form-label">E-mail*</label>
-                    <input type="email" class="form-control" id="email" name="email" th:field="*{email}" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="logradouro" class="form-label">Logradouro</label>
-                    <input type="text" class="form-control" id="logradouro" name="logradouro" th:field="*{logradouro}">
-                </div>
-                <div class="col-md-4">
-                    <label for="cidade" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="cidade" name="cidade" th:field="*{cidade}">
-                </div>
-                <div class="col-md-2 mb-5">
-                    <label for="estado" class="form-label">Estado*</label>
-                    <select class="form-select" id="estado" name="estado" th:field="*{estado}" required>
-                        <option selected disabled value="">Selecione</option>
-                        <option value="ACRE">AC</option>
-                        <option value="ALAGOAS">AL</option>
-                        <option value="AMAPA">AM</option>
-                        <option value="AMAZONAS">AP</option>
-                        <option value="BAHIA">BA</option>
-                        <option value="CEARA">CE</option>
-                        <option value="DISTRITO FEDERAL">DF</option>
-                        <option value="ESPIRITO SANTO">ES</option>
-                        <option value="GOIAS">GO</option>
-                        <option value="MARANHAO">MA</option>
-                        <option value="MATO GROSSO">MG</option>
-                        <option value="MATO GROSSO DO SUL">MS</option>
-                        <option value="MINAS GERAIS">MT</option>
-                        <option value="PARA">PA</option>
-                        <option value="PARAIBA">PB</option>
-                        <option value="PARANA">PR</option>
-                        <option value="PERNAMBUCO">PE</option>
-                        <option value="PIAUI">PI</option>                        
-                        <option value="RIO DE JANEIRO">RJ</option>
-                        <option value="RIO GRANDE DO NORTE">RN</option>
-                        <option value="RIO GRANDE DO SUL">RS</option>
-                        <option value="RONDONIA">RO</option>
-                        <option value="RORAIMA">RR</option>
-                        <option value="SANTA CATARINA">SC</option>
-                        <option value="SAO PAULO">SP</option>
-                        <option value="SERGIPE">SE</option>
-                        <option value="TOCANTINS">TO</option>
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label for="assunto" class="form-label">Assunto*</label>
-                    <select class="form-select" id="assunto" name="assunto" th:field="*{assunto}" required>
-                        <option selected disabled value="">Selecione</option>
-                        <option value="DUVIDA">Dúvidas</option>
-                        <option value="PARCERIAS">Parcerias</option>
-                        <option value="SUGESTAO">Sugestões</option>
-                        <option value="OUTROS">Outros</option>
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label for="mensagem" class="form-label">Mensagem*</label>
-                    <textarea class="form-control" id="mensagem" rows="10" name="mensagem" th:field="*{mensagem}" required></textarea>
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
-                        <label class="form-check-label" for="invalidCheck2">
-                            Aceito receber notificações do Edutech3.0
-                        </label>
-                    </div>
-                </div>
-                <div class="col-12 mb-3">
-                    <button class="btn botao" type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </main>
-    <footer class="bg-footer">
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top" style="background-color:#000080">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/"><img class="" src="../img/logo.png" alt="Logomarca"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i
+							class="bi bi-list"></i></span>
+				</button>
+				<section class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Trilhas de capacitação
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../infantil">Infantil</a>
+								</li>
+								<li><a class="dropdown-item" href="../fundamentalI">Fundamental
+										I</a></li>
+								<li><a class="dropdown-item" href="../fundamentalII">Fundamental
+										II</a></li>
+								<li><a class="dropdown-item" href="../medio">Médio</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Edutech3.0
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../sobre">Sobre nós</a>
+								</li>
+								<li><a class="dropdown-item" href="#">Instituições
+										parceiras</a></li>
+								<li><a class="dropdown-item" href="https://www.gov.br/mec/pt-br">Notícias</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Fale conosco
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../cadastro/cadastrar">Cadastre-se</a></li>
+								<li><a class="dropdown-item" href="../material/cadastrar">Compartilhe sua ideia</a>
+								</li>
+								<li><a class="dropdown-item" href="#">Contato</a></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<div class="d-flex justify-content-end align-items-center mb-3">
+					<a href="../login"> <button type="submit" class="btn botao">ENTRAR</button></a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="bg-light">
+		<div class="fade-in" style="background-color: #000080;">
+			<img class="banner-index" src="../img/escola.jpeg" alt="">
+		</div>
+		<div class="container">
+			<h1 class="fonte-titulo mt-5">Fale conosco</h1>
+			<p>*Campo obrigatório</p>
+			<form method="POST" th:object="${contato}" class="row g-3 mt-5">
+				<div class="col-md-6">
+					<label for="nome" class="form-label">Nome Completo*</label>
+					<input type="text" class="form-control" id="nome" name="nome" th:field="*{nome}" required>
+				</div>
+				<div class="col-md-6">
+					<label for="email" class="form-label">E-mail*</label>
+					<input type="email" class="form-control" id="email" name="email" th:field="*{email}" required>
+				</div>
+				<div class="col-md-6">
+					<label for="logradouro" class="form-label">Logradouro</label>
+					<input type="text" class="form-control" id="logradouro" name="logradouro" th:field="*{logradouro}">
+				</div>
+				<div class="col-md-4">
+					<label for="cidade" class="form-label">Cidade</label>
+					<input type="text" class="form-control" id="cidade" name="cidade" th:field="*{cidade}">
+				</div>
+				<div class="col-md-2 mb-5">
+					<label for="estado" class="form-label">Estado*</label>
+					<select class="form-select" id="estado" name="estado" th:field="*{estado}" required>
+						<option selected disabled value="">Selecione</option>
+						<option value="ACRE">AC</option>
+						<option value="ALAGOAS">AL</option>
+						<option value="AMAPA">AM</option>
+						<option value="AMAZONAS">AP</option>
+						<option value="BAHIA">BA</option>
+						<option value="CEARA">CE</option>
+						<option value="DISTRITO FEDERAL">DF</option>
+						<option value="ESPIRITO SANTO">ES</option>
+						<option value="GOIAS">GO</option>
+						<option value="MARANHAO">MA</option>
+						<option value="MATO GROSSO">MG</option>
+						<option value="MATO GROSSO DO SUL">MS</option>
+						<option value="MINAS GERAIS">MT</option>
+						<option value="PARA">PA</option>
+						<option value="PARAIBA">PB</option>
+						<option value="PARANA">PR</option>
+						<option value="PERNAMBUCO">PE</option>
+						<option value="PIAUI">PI</option>
+						<option value="RIO DE JANEIRO">RJ</option>
+						<option value="RIO GRANDE DO NORTE">RN</option>
+						<option value="RIO GRANDE DO SUL">RS</option>
+						<option value="RONDONIA">RO</option>
+						<option value="RORAIMA">RR</option>
+						<option value="SANTA CATARINA">SC</option>
+						<option value="SAO PAULO">SP</option>
+						<option value="SERGIPE">SE</option>
+						<option value="TOCANTINS">TO</option>
+					</select>
+				</div>
+				<div class="col-md-12">
+					<label for="assunto" class="form-label">Assunto*</label>
+					<select class="form-select" id="assunto" name="assunto" th:field="*{assunto}" required>
+						<option selected disabled value="">Selecione</option>
+						<option value="DUVIDA">Dúvidas</option>
+						<option value="PARCERIAS">Parcerias</option>
+						<option value="SUGESTAO">Sugestões</option>
+						<option value="OUTROS">Outros</option>
+					</select>
+				</div>
+				<div class="col-md-12">
+					<label for="mensagem" class="form-label">Mensagem*</label>
+					<textarea class="form-control" id="mensagem" rows="10" name="mensagem" th:field="*{mensagem}"
+						required></textarea>
+				</div>
+				<div class="col-12">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
+						<label class="form-check-label" for="invalidCheck2">
+							Aceito receber notificações do Edutech3.0
+						</label>
+					</div>
+				</div>
+				<div class="col-12 mb-3">
+					<button class="btn botao" type="submit">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer class="bg-footer">
 		<div class="container">
 			<section class="row section-footer">
 				<article class="col-sm d-flex justify-content-center">
-					<a class="navbar-brand" href="#"><img src="../img/img-footer.png" alt="Logomarca"></a>
+					<a class="navbar-brand" href="/"><img src="../img/img-footer.png" alt="Logomarca"></a>
 				</article>
 				<article class="col-sm section-footer-article">
 					<ul>
 						<h4>Capacitação</h4>
-						<li><a href="#">Cursos</a></li>
-						<li><a href="./infantil.html">Ensino Infantil</a></li>
-						<li><a href="./fund_I.html"> Ensino Fundamental I</a></li>
-						<li><a href="./fund_II.html">Ensino Fundamental II</a></li>
-						<li><a href="./medio.html">Ensino Médio</a></li>
+						<li><a href="../infantil">Ensino Infantil</a></li>
+						<li><a href="../fundamentalI"> Ensino Fundamental I</a></li>
+						<li><a href="../fundamentalII">Ensino Fundamental II</a></li>
+						<li><a href="../medio">Ensino Médio</a></li>
 					</ul>
 				</article>
 				<article class="col-sm section-footer-article">
 					<ul>
 						<h4>Edutech 3.0</h4>
-						<li><a href="sobreNos.html">Sobre nós</a></li>
+						<li><a href="../sobre">Sobre nós</a></li>
 						<li><a href="#">Instituições Parceiras</a></li>
-						<li><a href="#">Notícias</a></li>
+						<li><a href="https://www.gov.br/mec/pt-br">Notícias</a></li>
 					</ul>
 				</article>
 				<article class="col-sm section-footer-article">
 					<ul>
 						<h4>Fale conosco</h4>
-						<li><a href="./cadastro.html">Cadastrar</a></li>
-						<li><a href="./contato.html">Contato</a></li>
-						<li><a href="./enviarMaterial.html">Compartilhe sua ideia</a></li>
+						<li><a href="../cadastro/cadastrar">Cadastre-se</a></li>
+						<li><a href="../contato/cadastrar">Contato</a></li>
+						<li><a href="../material/cadastrar">Compartilhe sua ideia</a></li>
 						<li>
 							<h4>Nossas redes sociais</h4>
 						</li>
@@ -209,16 +209,17 @@
 			</section>
 			<hr>
 			<div class="d-flex justify-content-center">
-				<p id="fonte">&copy; Edutech 3.0 2022 - Todos os direitos reservados. Fotos meramente ilustrativas.</p>
+				<p id="fonte">&copy; Edutech 3.0 2022 - Todos os direitos reservados. Fotos meramente ilustrativas.
+				</p>
 			</div>
 		</div>
 	</footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 
-    <script src="./script.js"></script>
+	<script src="./script.js"></script>
 </body>
 
 </html>
