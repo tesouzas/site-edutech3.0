@@ -26,10 +26,10 @@ Curso: Recode Pro 2022
 Squad 25:
 Amanda
 Ana Fontes
-Stephane
+Stephanie Souza
 Israel Douglas
 
-User Name GitHub: amanda, anafontessp, stephane, israeldouglas25
+User Name GitHub: amanda, anafontessp, tesouzas, israeldouglas25
 
 Agradecimentos
 O projeto Edutech3.0 foi elaborado graças as instruções e dedicação dos professores Flávio Mota e do programa Recode Pro 2022.
