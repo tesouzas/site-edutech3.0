@@ -29,7 +29,7 @@ Ana Fontes
 Stephanie Souza
 Israel Douglas
 
-User Name GitHub: amanda, anafontessp, tesouzas, israeldouglas25
+User Name GitHub: anafontessp, MandaSoares, tesouzas, israeldouglas25
 
 Agradecimentos
 O projeto Edutech3.0 foi elaborado graças as instruções e dedicação dos professores Flávio Mota e do programa Recode Pro 2022.
