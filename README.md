@@ -24,8 +24,8 @@ Professor: Flávio Mota e Nathally
 Curso: Recode Pro 2022
 
 Squad 25:
-Amanda
-Ana Fontes
+Amanda Soares
+Ana Maria Fontes
 Stephanie Souza
 Israel Douglas
 
