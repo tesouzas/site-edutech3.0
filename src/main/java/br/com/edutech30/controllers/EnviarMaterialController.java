@@ -24,7 +24,7 @@ public class EnviarMaterialController {
 	@Autowired
 	private EnviarMaterialRepository enviarMaterialRepository;
 
-	@GetMapping
+	@GetMapping("/listar")
 	public ModelAndView listar() {
 
 		ModelAndView modelAndView = new ModelAndView("enviarMaterial/listar");
