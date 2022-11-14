@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import br.com.edutech30.model.Cadastro;
 import br.com.edutech30.repository.CadastroRepository;
+import br.com.edutech30.repository.PermissaoRepository;
 
 @Controller
 @RequestMapping("/cadastro")
@@ -19,6 +20,9 @@ public class CadastroController {
 	
 	@Autowired
 	private CadastroRepository cadastroRepository;
+	
+	@Autowired
+	private PermissaoRepository permissãoRepository;
 	
 	@GetMapping
 	public ModelAndView listar() {
@@ -35,6 +39,7 @@ public class CadastroController {
 		ModelAndView modelAndView = new ModelAndView("cadastro/cadastro");
 
 		modelAndView.addObject("cadastro", new Cadastro());
+		modelAndView.addObject("permissoes", permissãoRepository.findAll());
 
 		return modelAndView;
 	}
@@ -66,6 +71,7 @@ public class CadastroController {
 		
 		Cadastro cadastro = cadastroRepository.getReferenceById(id);
 		modelAndView.addObject("cadastro", cadastro);
+		modelAndView.addObject("permissoes", permissãoRepository.findAll());
 		
 		return modelAndView;
 	}

@@ -120,7 +120,6 @@
 						<th scope="col">#</th>
 						<th scope="col">Nome</th>
 						<th scope="col">E-mail</th>
-						<th scope="col">Senha</th>
 						<th scope="col">Permissão</th>
 						<th scope="col">Ações</th>
 					</tr>
@@ -130,8 +129,7 @@
 						<th scope="row" th:text="${cadastro.id}"></th>
 						<td th:text="${cadastro.nome}"></td>
 						<td th:text="${cadastro.email}"></td>
-						<td th:text="${cadastro.senha}"></td>
-						<td th:text="${cadastro.permissao}"></td>
+						<td th:text="${cadastro.permissao.tipo}"></td>
 						<td>
 							<a th:href="@{/cadastro/{id}/editar (id=${cadastro.id})}" class="btn" title="Editar">
 								<i class="bi bi-pencil"></i>

@@ -4,9 +4,12 @@ import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -26,15 +29,16 @@ public class Cadastro {
 	@Column(nullable = false)
 	private String senha;
 
-	@Column(nullable = false)
-	private Long permissao;
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "permissao_id_fk", nullable = false)
+	private Permissao permissao;
 
 	public Cadastro() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Cadastro(Long id, String nome, String email, String senha, Long permissao) {
+	public Cadastro(Long id, String nome, String email, String senha, Permissao permissao) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -75,11 +79,11 @@ public class Cadastro {
 		this.senha = senha;
 	}
 
-	public Long getPermissao() {
+	public Permissao getPermissao() {
 		return permissao;
 	}
 
-	public void setPermissao(Long permissao) {
+	public void setPermissao(Permissao permissao) {
 		this.permissao = permissao;
 	}
 
