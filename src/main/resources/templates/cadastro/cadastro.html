@@ -118,17 +118,17 @@
 						<div class="col-12 mb-2">
 							<label for="nome" class="form-label">Nome Completo</label> <input
 								type="text" class="form-control" id="nome" name="nome"
-								aria-describedby="nomeHelpId" th:field="*{nome}">
+								aria-describedby="nomeHelpId" th:field="*{nome}" required>
 						</div>
 						<div class="col-12 mb-2">
 							<label for="email" class="form-label">E-mail</label> <input
 								type="email" class="form-control" id="email" name="email"
-								aria-describedby="emailHelpId" th:field="*{email}">
+								aria-describedby="emailHelpId" th:field="*{email}" required>
 						</div>
 						<div class="col-md-6 mb-2">
 							<label for="senha" class="form-label">Senha</label> <input
 								type="password" class="form-control" id="senha" name="senha"
-								th:field="*{senha}">
+								th:field="*{senha}" required>
 						</div>
 						<div class="col-md-6">
 							<label for="permissao" class="form-label">Permissão</label> <select
