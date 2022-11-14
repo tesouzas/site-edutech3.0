@@ -7,37 +7,37 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
 	@GetMapping("/")
-	public String Home() {		
+	public String Home() {
 		return "index";
 	}
-	
+
 	@GetMapping("/infantil")
-	public String infantil() {		
+	public String infantil() {
 		return "infantil";
 	}
-	
+
 	@GetMapping("/fundamentalI")
-	public String fundamentalI() {		
+	public String fundamentalI() {
 		return "fund_I";
 	}
-	
+
 	@GetMapping("/fundamentalII")
-	public String fundamentalII() {		
+	public String fundamentalII() {
 		return "fund_II";
 	}
-	
+
 	@GetMapping("/medio")
-	public String medio() {		
+	public String medio() {
 		return "medio";
 	}
-	
+
 	@GetMapping("/login")
-	public String login() {		
+	public String login() {
 		return "login";
 	}
-	
+
 	@GetMapping("/sobre")
-	public String sobreNos() {		
+	public String sobreNos() {
 		return "sobreNos";
 	}
 
