@@ -7,7 +7,7 @@ Usando Pseudocódigo:
 
 Usando conceitos de programação estruturada (vetor e matriz), foi criado em pseudocódigo um menu para simular um site com páginas incluindo: cadastro de professores e envio de materiais de ensino.
 
-Usando HTML / CSS / JAVA / SQL / MVC / BOOTSTRAP:
+Usando HTML / CSS / JAVA / JAVASCRIPT / SQL / MVC / BOOTSTRAP:
 
 Um protótipo da versão do site;
 
@@ -17,11 +17,11 @@ As páginas são responsivas e adaptáveis.
 
 As formatações foram realizadas de acordo com a paleta de cores escolhida.
 
-Um Banco de dados: ajustes no modelo lógico do banco de dados (Tabelas, atributos e relacionamentos) e implementação do banco de dados no MySql.
+Um Banco de dados: ajustes no modelo lógico do banco de dados (Tabelas, atributos e relacionamentos) e implementação do banco de dados com as tecnologias MySql e Frammework Spring Boot.
 
-Back-end: o back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando o padrão de projeto MVC (Implementado o CRUD para as tabelas do modelo de dados).
-
-Front-end: criada uma nova versão do site usando o padrão de projeto MVC (Model, View, Controller) para (conectar todas as telas de cadastro ao banco de dados usando o padrão de projetos MVC) ajustar todas as conexões desta versão atividade.
+Back-end e Front-end: 
+O back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando, padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração do na versão anterior e atual do projeto, Api e Dot Net em C#.
+O front-end foi refatorado com uma nova versão do site usando o padrão de projeto MVC (Model, View, Controller) para (conectar todas as telas de cadastro ao banco de dados usando o padrão de projetos MVC) ajustar todas as conexões do banco de dados.
 
 Essa atividade foi organizada e hospedada aqui no Git Hub em pastas: uma para o UML, uma para o JAVA, outra para o MVC e para o protótipo do site.
 
@@ -41,6 +41,7 @@ https://www.google.com/search?q=imagens&oq=imagens&aqs=chrome..69i57j0i433i512j0
 Vídeos para aprender a formatar o site: 
 https://www.youtube.com
 https://recodepro.org.br/
+https://www.cursoemvideo.com/
 
 Sugestão de vídeos: 
 https://www.youtube.com/
