@@ -1,7 +1,7 @@
 # site-edutech3.0 
 Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas). As plataformas para hospedagem do site foram realizadas tanto pelo GitHub Pages quanto pelo Heroku App.
 
-Nesta atividade, foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), HTML, CSS, JAVA, SQL, MVC e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores de escolas públicas e privadas do Brasil sem limite de idade.
+Nesta atividade, foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), as linguagens e tecnologias HTML, CSS, JAVA, JAVASCRIPT, SQL, MVC, SPRING e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores de escolas públicas e privadas do Brasil.
 
 Usando Pseudocódigo:
 
@@ -53,7 +53,7 @@ https://getbootstrap.com.br/
 https://recodepro.org.br/
 https://www.w3schools.com/
 
-Professores: Flávio Mota, Mariana Oliveira, Gizelle Marques e Nathally Souza.
+Professores: Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza.
 Curso: Programador FullStack Recode Pro 2022
 
 Squad 25:
