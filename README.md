@@ -4,20 +4,19 @@ Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pr
 Nesta atividade, foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), as linguagens e tecnologias HTML, CSS, JAVA, JAVASCRIPT, SQL, MVC, SPRING e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores de escolas públicas e privadas do Brasil.
 
 Usando Pseudocódigo:
+Conceitos de programação estruturada (vetor e matriz), foi criado em pseudocódigo o menu para simular um site com 5 páginas incluindo: cadastro de professores e envio de materiais de ensino.
 
-Usando conceitos de programação estruturada (vetor e matriz), foi criado em pseudocódigo um menu para simular um site com páginas incluindo: cadastro de professores e envio de materiais de ensino.
-
-Usando HTML / CSS / JAVA / JAVASCRIPT / SQL / MVC / BOOTSTRAP:
+Usando HTML / CSS / JAVA / JAVASCRIPT / SQL / MVC / BOOTSTRAP;
 
 Um protótipo da versão do site;
 
-As páginas: adm, cadastro, contato, enviarMaterial,fund_I, fund_II, infantil, login, medio e sobreNos de acordo com o modelo de negócio escolhido. Usando HTML, CSS, JAVA, MVC e BOOTSTRAP;
+As páginas: adm, cadastro, contato, enviarMaterial,fund_I, fund_II, infantil, login, medio e sobreNos de acordo com o modelo de negócio escolhido. Usando HTML, CSS, JAVA, JAVASCRIPT e BOOTSTRAP;
 
 As páginas são responsivas e adaptáveis.
 
-As formatações foram realizadas de acordo com a paleta de cores escolhida.
+As formatações foram realizadas de acordo com a paleta de cores escolhida pelo grupo.
 
-Um Banco de dados: ajustes no modelo lógico do banco de dados (Tabelas, atributos e relacionamentos) e implementação do banco de dados com as tecnologias MySql e Frammework Spring Boot.
+Banco de dados: ajustes no modelo lógico do banco de dados (Tabelas, atributos e relacionamentos) e implementação do banco de dados com as tecnologias MySql e Frammework Spring Boot.
 
 Back-end e Front-end: 
 O back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando, padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração do na versão anterior e atual do projeto, Api e Dot Net em C#.
@@ -54,6 +53,7 @@ https://recodepro.org.br/
 https://www.w3schools.com/
 
 Professores: Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza.
+
 Curso: Programador FullStack Recode Pro 2022
 
 Squad 25:
