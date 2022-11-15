@@ -34,6 +34,7 @@ http://visoesdefuturo.fundacaotelefonica.org.br/
 https://brasil.un.org/pt-br/sdgs
 https://recodepro.org.br/
 https://www.ecycle.com.br/ods/
+https://habitability.com.br/ods-11-conheca-o-objetivo-da-onu-para-as-cidades/?utm_source=google_pago&utm_medium=&utm_content=&gclid=CjwKCAiAjs2bBhACEiwALTBWZTz39q41-jFLYUA_pSYZ4W80qmzu8X1TZy8Gv5FgwNWuHep3qUK7bxoCoVkQAvD_BwE
 
 Site de imagens:
 https://www.google.com/search?q=imagens&oq=imagens&aqs=chrome..69i57j0i433i512j0i512j0i433i512l2j0i512j0i433i512j0i131i433j0i512l2.1176j0j15&sourceid=chrome&ie=UTF-8
@@ -63,5 +64,5 @@ Israel Douglas
 
 User Name GitHub: anafontessp, MandaSoares, tesouzas, israeldouglas25
 
-Agradecimentos
+Agradecimentos:
 O projeto Edutech3.0 foi elaborado graças a toda infraestrutura desse programa de formação, ao conhecimento, instruções e dedicação dos professores e monitores do Recode Pro 2022. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas.
