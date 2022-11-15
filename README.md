@@ -12,21 +12,21 @@ Um protótipo da versão do site;
 
 As páginas: adm, cadastro, contato, enviarMaterial,fund_I, fund_II, infantil, login, medio e sobreNos de acordo com o modelo de negócio escolhido. Usando HTML, CSS, JAVA, JAVASCRIPT e BOOTSTRAP;
 
-As páginas são responsivas e adaptáveis.
+As páginas são responsivas e adaptáveis;
 
-As formatações foram realizadas de acordo com a paleta de cores escolhida pelo grupo.
+As formatações foram realizadas de acordo com a paleta de cores escolhida pelo grupo;
 
-Banco de dados: ajustes no modelo lógico do banco de dados (tabelas, atributos e relacionamentos) e implementação do banco de dados com as tecnologias MySql e Frammework Spring Boot.
+Banco de dados: ajustes no modelo lógico do banco de dados (tabelas, atributos e relacionamentos) e implementação do banco de dados com as tecnologias MySql e Frammework Spring Boot;
 
 Back-end e Front-end: 
-O back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando, padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração do na versão anterior e atual do projeto, Api e Dot Net em C#.
-O front-end foi refatorado com uma nova versão do site usando o padrão de projeto MVC (Model, View, Controller) para (conectar todas as telas de cadastro ao banco de dados usando o padrão de projetos MVC) ajustar todas as conexões do banco de dados.
+O back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando, padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração do na versão anterior e atual do projeto, Api e Dot Net em C#;
+O front-end foi refatorado com uma nova versão do site usando o padrão de projeto MVC (Model, View, Controller) para (conectar todas as telas de cadastro ao banco de dados usando o padrão de projetos MVC) ajustar todas as conexões do banco de dados;
 
-Essa atividade foi organizada e hospedada aqui no GitHub em pastas: uma para o UML, uma para o JAVA, outra para o MVC e para o protótipo do site.
+Essa atividade foi organizada e hospedada aqui no GitHub em pastas: uma para o UML, uma para o JAVA, outra para o MVC e para o protótipo do site;
 
-Foi enviado o link do GitHub para avaliação da entrega da atividade prática do Squad 25 no site do programa Recode Pro 2022.
+Foi enviado o link do GitHub para avaliação da entrega da atividade prática do Squad 25 no site do programa Recode Pro 2022;
 
-O link está como “público” para que todos possam acessar essa atividade.
+O link está como “público” para que todos possam acessar essa atividade;
 
 Fontes de pesquisa para o conteúdo: 
 http://visoesdefuturo.fundacaotelefonica.org.br/
@@ -52,17 +52,17 @@ https://getbootstrap.com.br/
 https://recodepro.org.br/
 https://www.w3schools.com/
 
-Professores: Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza
+Professores: Flávio Mota, Gizelle Marques, Mariana Oliveira e Nathally Souza;
 
-Curso: Programador FullStack Recode Pro 2022
+Curso: Programador FullStack Recode Pro 2022;
 
 Squad 25:
 Amanda Soares;
 Ana Maria Fontes;
 Stephanie Souza;
-Israel Douglas
+Israel Douglas;
 
-User Name GitHub: anafontessp, MandaSoares, tesouzas, israeldouglas25
+User Name GitHub: anafontessp, MandaSoares, tesouzas, israeldouglas25;
 
 Agradecimentos:
 O projeto Edutech3.0 foi elaborado graças a toda infraestrutura desse programa de formação, ao conhecimento, instruções e dedicação dos professores e monitores do Recode Pro 2022. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas.
