@@ -1,4 +1,5 @@
-# site-edutech3.0 Projeto de um site elaborado em grupo para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas).
+# site-edutech3.0 
+Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas).
 
 Nesta atividade, foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), HTML, CSS, JAVA, SQL, MVC e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores de escolas públicas e privadas do Brasil sem limite de idade.
 
