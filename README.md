@@ -1,5 +1,5 @@
 # site-edutech3.0 
-Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas).
+Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas). As plataformas para hospedagem do site foram realizadas tanto pelo GitHub Pages quanto pelo Heroku App.
 
 Nesta atividade, foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), HTML, CSS, JAVA, SQL, MVC e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores de escolas públicas e privadas do Brasil sem limite de idade.
 
@@ -23,9 +23,9 @@ Back-end e Front-end:
 O back-end foi realizado usando tecnologias Java (Estrutura de dados Classes), conexão com MySql usando, padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados). Usamos o Framework Spring para refatoração do na versão anterior e atual do projeto, Api e Dot Net em C#.
 O front-end foi refatorado com uma nova versão do site usando o padrão de projeto MVC (Model, View, Controller) para (conectar todas as telas de cadastro ao banco de dados usando o padrão de projetos MVC) ajustar todas as conexões do banco de dados.
 
-Essa atividade foi organizada e hospedada aqui no Git Hub em pastas: uma para o UML, uma para o JAVA, outra para o MVC e para o protótipo do site.
+Essa atividade foi organizada e hospedada aqui no GitHub em pastas: uma para o UML, uma para o JAVA, outra para o MVC e para o protótipo do site.
 
-Foi enviado o link do Git Hub para avaliação da entrega da atividade prática do Squad 25 no site do programa Recode Pro 2022.
+Foi enviado o link do GitHub para avaliação da entrega da atividade prática do Squad 25 no site do programa Recode Pro 2022.
 
 O link está como “publico” para que todos possam acessar essa atividade.
 
