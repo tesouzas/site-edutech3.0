@@ -5,12 +5,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Edutech 3.0</title>
-
 </head>
 
 <body>
 
+# Edutech 3.0
 Projeto de um site elaborado pela Squad 25 para conclusão do Programa Recode Pro 2022 formação FullStack com o tema baseado na ODS (Objetivo de Desenvolvimento Sustentavel) 4 (Educação de Qualidade) da ONU (Organizacao das Nacoes Unidas). As plataformas para hospedagem do site foram realizadas tanto pelo GitHub Pages quanto pelo Heroku App;
 
 Nesta atividade foram utilizados os conceitos de algoritmos em pseudocódigo (resolução de problemas usando Portugol), as linguagens e tecnologias HTML, CSS, JAVA, JAVASCRIPT, SQL, MVC, SPRING e BOOTSTRAP para toda a construção do site com trilhas de aprendizagem e compartilhamento de conteúdos para acessibilidade de professores das redes de ensino de escolas públicas e privadas do Brasil;
