@@ -4,6 +4,11 @@
 </div>
 
 > Status do Projeto: :heavy_check_mark: :warning: Em desenvolvimento
+<div align="center">
+
+![EDUTECH2](https://user-images.githubusercontent.com/108074809/203997776-8264eb12-45ba-4051-a091-39d58a7f99a8.png)
+
+</div>
 
 ### Tópicos 
 
